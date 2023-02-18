@@ -1,0 +1,14 @@
+import java.util.*;
+class sum5{
+    public static void main(String []args){
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter five integers to print their sum: ");
+        int num1=s.nextInt();
+        int num2=s.nextInt();
+        int num3=s.nextInt();
+        int num4=s.nextInt();
+        int num5=s.nextInt();
+        int sum= num1+num2+num3+num4+num5;
+        System.out.print("The sum is "+sum);
+    }
+}
